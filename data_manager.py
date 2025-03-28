@@ -41,8 +41,4 @@ class DataManager:
         return self.users_sheet_data
 
 
-# test = DataManager()
-# prices_sheet = test.get_prices_sheet_data()
-# print(prices_sheet)
-
 
