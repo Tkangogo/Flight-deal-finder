@@ -14,9 +14,9 @@ class NotificationManager:
     def send_whatsapp_message(self, message_data):
         client = Client(self.sid,self.authentication)
         message = client.messages.create(
-            from_='whatsapp:+14155238886',
+            from_='your twillo number',
             body=f"{message_data}",
-            to='whatsapp:+254729315937'
+            to='your phone number'
         )
         print(message.status)
 
